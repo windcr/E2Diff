@@ -1,5 +1,5 @@
-# ELDiff
-An Enhanced Lightweight Diffusion Model for Blind Face Restoration. 
+# E2Diff
+Toward Blind Face Restoration with an Enhanced Efficient Diffusion Model. 
 The code will be released soon.
 # Structure
 
