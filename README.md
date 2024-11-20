@@ -3,21 +3,33 @@ Toward Blind Face Restoration with an Enhanced Efficient Diffusion Model.
 
 
 ## Architecture
-<img src="assets/fig2.jpg" width="800px"/>
+<img src="assets/fig1.jpg" width="800px"/>
+
+The overall process framework of the proposed E2Diff.
 
 <img src="assets/fig3.jpg" width="800px"/>
 
+Network architecture in denoising process.
+
 ## Face Restoration
 
-<img src="assets/fig1.jpg" width="800px"/>
+<img src="assets/fig5.png" width="800px"/>
 
-<img src="assets/fig5.jpg" width="800px"/>
+Visual comparison for blind face restoration on the CelebA-test dataset.
 
-<img src="assets/table1.jpg" width="800px"/>
+<img src="assets/table1.png" width="800px"/>
 
-<img src="assets/fig6.jpg" width="800px"/>
+Quantitative comparison for blind face restoration on the CelebA-test dataset.
 
-<img src="assets/table3.jpg" width="800px"/>
+<img src="assets/fig6.png" width="800px"/>
+
+Visual comparison for blind face restoration on four real datasets. The qualitative results are from LFW-test, Webphoto-test, Wider-test, and CelebChild datasets from top to bottom.
+
+<img src="assets/table3.png" width="800px"/>
+
+Quantitative comparison of FID-F scores for blind face restoration on real datasets.
+
+
 
 ## Requirements
 A suitable [conda](https://conda.io/) environment named `E2Diff` can be created and activated with:
@@ -72,4 +84,4 @@ python main.py --cfg_path configs/training/swinir_ffhq512.yaml --save_dir [Loggi
 This project is based on DifFace (https://github.com/zsyOAOA/DifFace). Thanks for this awesome work.
 
 ## Contact
-If you have any questions, please feel free to contact me via cr2008@xzmu.edu.cn, wangyu20000913@gmail.com.
+If you have any questions, please feel free to contact me via cr2008@xzmu.edu.cn.
